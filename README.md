@@ -89,7 +89,7 @@ On-chain access control via **Mysten Seal** is the planned upgrade once a Move p
 | Layer | Technology |
 |---|---|
 | Frontend | Next.js 14, TypeScript |
-| LLM | Gemini 2.0 Flash Lite (`@google/genai`) |
+| LLM | Gemini 3.0 Flash Lite (`@google/genai`) |
 | Episodic memory | MemWal (`@mysten-incubation/memwal`) |
 | Long-term storage | Walrus testnet (blob storage) |
 | Encryption | Node.js `crypto` — AES-256-GCM + PBKDF2 |
@@ -136,7 +136,7 @@ mental-health-agent/
 ### Installation
 
 ```bash
-git clone https://github.com/spheric2/mnemo.git
+git clone https://github.com/spheric09/mnemo.git
 cd mnemo
 npm install
 ```
@@ -209,7 +209,7 @@ These are known, honest gaps — not roadmap vaporware:
 
 ## Built at Sui Overflow Hackathon
 
-Mnemo was built as a submission to the [Sui Overflow Hackathon](https://sui.io/overflow). The core insight driving it: the bottleneck in AI memory isn't storage — it's *interpretation*. Knowing what to remember, how to weight it, and how to build a live model of a person over time. The Archivist is an attempt at that.
+Mnemo was initially built as a submission to the [Sui Overflow Hackathon](https://sui.io/overflow) but was never submitted. The core insight driving it: the bottleneck in AI memory isn't storage — it's *interpretation*. Knowing what to remember, how to weight it, and how to build a live model of a person over time. The Archivist is an attempt at that.
 
 ---
 
