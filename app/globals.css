@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap');
+
+:root {
+  /* ── Palette ── */
+  --bg-base:        #0D0F12;
+  --bg-surface:     #13161C;
+  --bg-raised:      #1A1E27;
+  --bg-hover:       #1F2430;
+
+  --border-subtle:  #1E2330;
+  --border-dim:     #252C3A;
+
+  --text-primary:   #E8EAF0;
+  --text-secondary: #8891A8;
+  --text-muted:     #4E5668;
+
+  /* Gold — used ONLY for memory-related elements */
+  --gold:           #C9A84C;
+  --gold-dim:       #8A6E2F;
+  --gold-glow:      rgba(201, 168, 76, 0.12);
+  --gold-glow-lg:   rgba(201, 168, 76, 0.06);
+
+  --accent-blue:    #4A7FC1;
+
+  /* ── Typography ── */
+  --font-sans:      'DM Sans', system-ui, sans-serif;
+  --font-serif:     'DM Serif Display', Georgia, serif;
+
+  /* ── Radii ── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* ── Transitions ── */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-dim); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Selection */
+::selection { background: var(--gold-glow); color: var(--gold); }
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--gold-dim);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
