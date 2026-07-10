@@ -11,7 +11,6 @@ Built for the **Sui Overflow Hackathon**, Mnemo decouples AI compute from storag
 ## Demo
 
 ![Mnemo chat UI showing memory panel with This Turn, Recalled, and Profile tabs](./docs/screenshot-chat.png)
-![Mnemo profile view showing synthesized master profile and today's insight](./docs/screenshot-profile.png)
 
 ---
 
