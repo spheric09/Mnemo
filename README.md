@@ -10,15 +10,15 @@ Built for the **Sui Overflow Hackathon**, Mnemo decouples AI compute from storag
 
 ## Demo
 
-![Mnemo chat UI showing memory panel with This Turn, Recalled, and Profile tabs](./docs/Mnemo schreenshot chat ui 1.jpg)
+![Mnemo chat UI showing memory panel with This Turn, Recalled, and Profile tabs](./docs/Mnemo%20schreenshot%20chat%20ui%201.jpg)
 
 ---
 
 ## How It Works
 
-![The flow](./docs/Mnemo schematic 1.png)
+![The flow](<./docs/Mnemo schematic 1.png>)
 
-![per turn listener prompt](./docs/Mnemo schematic 2.png)
+![per turn listener prompt](./docs/Mnemo%20schematic%202.png)
 
 Mnemo runs two agents simultaneously on every message:
 
